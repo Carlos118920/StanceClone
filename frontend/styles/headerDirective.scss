@@ -406,7 +406,9 @@
 
   .header-left-bottom {
     padding-top: 45px;
-
+    img{
+      margin-left: 25px;
+    }
   }
 }
 
@@ -527,15 +529,15 @@
     .header-right-bottom {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: flex-end;
       // align-items: center;
-      width: 100%;
       padding-top: 32px;
-      padding-left: 80px;
       font-size: 11.5px;
       font-family: regular;
       color: #7B7B91;
       font-weight: 300;
+      width: 193px;
+      margin-right: 50px;
 
       i {
         padding-top: 17px;
@@ -543,8 +545,6 @@
 
 
       .header-right-bottom-left {
-        position: absolute;
-        right: 146px;
         font-size: 14px;
         background-color: transparent;
         border-left: 0px;
