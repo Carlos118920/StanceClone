@@ -105,7 +105,8 @@
 
     .footer2-content {
       width: 100%;
-
+      display: flex;
+      justify-content: space-between;
       input {
         background-color: transparent;
         border-width: 1px;
